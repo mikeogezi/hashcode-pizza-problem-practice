@@ -11,9 +11,9 @@ The binary is built with the C++14 standard, No optimizations, and a GCC compile
 
 My scores for the various input files are as follows:
 
-Eg.in -> 6
-Small.in -> 22
-Medium.in -> 40488
-Big.in -> 667798
+Eg.in = 6
+Small.in = 22
+Medium.in = 40488
+Big.in = 667798
 
 *Total -> 708314*
