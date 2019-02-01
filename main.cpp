@@ -310,10 +310,8 @@ int main () {
     // cerr << "R = " << R << ", C = " << C << ", L = " << L << ", H = " << H << "\n";
     cin.ignore();
     vector<string> input_lines(R);
-    string line;
     for (int r = 0; r < R; ++r) {
-        getline(cin, line);
-        input_lines[r] = line;
+        getline(cin, input_lines[r]);
     }
 
     Pizza pizza(R, C, input_lines);
