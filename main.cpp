@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include "./tqdm/tqdm.h"
 
 using namespace std;
 
@@ -149,7 +150,9 @@ public:
     }
 
     void solve () {
+        // for (int r: tqdm::range(this->rows)) {
         for (int r = 0; r < this->rows; ++r) {
+            // for (int c: tqdm::range(this->cols)) {
             for (int c = 0; c < this->cols; ++c) {
                 if (grid[r][c] != EMPTY) {
                     // cerr << "r = " << r << ", c = " << c << "\n";

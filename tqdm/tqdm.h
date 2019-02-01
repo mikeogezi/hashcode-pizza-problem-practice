@@ -34,7 +34,7 @@ Usage:
 #include <string>       // string
 #include <type_traits>  // is_pointer, ...
 #include <utility>      // swap
-#include "tqdm/utils.h"
+#include "utils.h"
 
 #ifndef SIZE_T_MAX
 constexpr size_t SIZE_T_MAX = std::numeric_limits<size_t>::max();
