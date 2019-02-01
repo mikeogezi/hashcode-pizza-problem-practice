@@ -17,3 +17,9 @@ Medium.in => 40488<br />
 Big.in => 667798<br />
 
 **Total => 708314**
+
+**Please note that the built binary works with file redirection so in order to test it you would write something like**
+
+`main < small.in`
+OR
+`main < small.in > small.out`
